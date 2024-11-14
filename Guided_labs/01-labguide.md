@@ -605,7 +605,7 @@ Scikit-learn is a library for machine learning. Here are two simple examples of 
 **Example 1: Linear Regression**
 
 - **Create a new python file**
-  - Create a Python file named `linear_regression.py` and write the following code in it.
+  - Create a Python file named `scikit_learn.py` and write the following code in it.
    
 
 ```python
@@ -628,13 +628,13 @@ print("Predictions:", predictions)
 - Use the command below in your terminal to run the Python file:
  
 ```bash
-python linear_regression.py
+python scikit_learn.py
 ```
 
 
 **Output:**
 
-![alt text](Images/i8.png)
+![alt text](Images/image_18.png)
 
 <br>
 

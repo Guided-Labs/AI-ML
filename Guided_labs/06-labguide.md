@@ -185,13 +185,18 @@ if not non_numeric_found:
 
 ```
 
-**Output**
+**Run the Python file**
+- Use the command below in your terminal to run the Python file:
+ 
+```bash
+python Kmeans_clustering.py
+```
 
+**Output**
 
 ![alt text](Images/knn2.png)
 
 ---
-
 
 #### **Convert Columns to Numeric**
 ```python
@@ -202,6 +207,12 @@ print("\nChecking for NaN values after conversion:")
 print(df[numeric_columns].isnull().sum())
 ```
 
+**Run the Python file**
+- Use the command below in your terminal to run the Python file:
+ 
+```bash
+python Kmeans_clustering.py
+```
 
 **Output**
 
@@ -235,9 +246,9 @@ print(features.shape)
 
 **Run the Python file**
 - Use the command below in your terminal to run the Python file:
- 
+
 ```bash
-python data_preprocessing.py
+python Kmeans_clustering.py
 ```
 
 
@@ -284,7 +295,7 @@ plt.show()
 - Use the command below in your terminal to run the Python file:
  
 ```bash
-python data_preprocessing.py
+python Kmeans_clustering.py
 ```
 
 
@@ -318,7 +329,10 @@ except Exception as e:
 
 **Run the Python file**
 - Use the command below in your terminal to run the Python file:
- 
+
+```bash
+python Kmeans_clustering.py
+``` 
 
 **Output**
 
